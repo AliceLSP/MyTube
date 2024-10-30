@@ -1,0 +1,110 @@
+.listavideos{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    padding-top: 5px;
+    padding-left: 100px;
+}
+.principal{
+    padding-top: 15px;
+}
+hr{
+    margin-bottom:15px;
+}
+.userimage{
+    color: aliceblue;
+    display:flex;
+    justify-content: left;
+}
+.user{
+    display:flex;
+    justify-content: space-between;
+}
+.user img{
+    clip-path: circle(40%);
+    width: 34px;
+    height: 50px;
+}
+.user p {
+    margin-left:10px;
+}
+.like{
+    display:flex;
+    align-items: right;
+}
+.nome{
+    display: flex;
+    justify-content: center;
+    background-color:#db1d16;
+    height: 30px;
+    margin:0px;
+}
+
+body{
+    background-color: rgb(28, 28, 28);
+    margin: 0px;
+}
+.videos{
+    display:flex;
+    flex-direction: row;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+h3{
+    padding: 10px;
+    color: aliceblue;
+    padding-top: 0px;
+}
+h2{
+    color: aliceblue;
+}
+.container{
+    display: flex;
+    margin:30px;
+}
+
+header {
+    display: flex;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.search-bar {
+    flex-grow: 1;
+    display: flex;
+    align-items: center;
+    padding: 10px;
+}
+
+.search-bar input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.search-bar button {
+    border: none;
+    background-color: #db1d16;
+    color: white;
+    border-radius: 4px;
+    margin-left: 5px;
+    cursor: pointer;
+    padding: 8px;
+}
+
+.menu {
+    display: flex;
+    gap: 20px;
+}
+
+.menu a {
+    text-decoration: none;
+    color: #606060;
+    font-weight: 600;
+    padding: 8px;
+}
